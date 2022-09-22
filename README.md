@@ -24,3 +24,12 @@ git checkout main // 기본 브랜치가 main인 경우
 git checkout -b 브랜치이름
 ex) git checkout -b apply-feedback
 ```
+### 220922 숫자야구게임 구현설계
+
+#### 구현해야 할 기능 정리
+-> 컴퓨터가 정하는 숫자는 하드코딩되어있다고 가정함.
+1. 사용자 숫자 문자열로 입력받기 (scanner)
+2. 문자열로 입력받은 숫자 변환하기 
+3. 자료구조에서의 존재 파악하기 -> ball 갯수 확인
+4. 순서 맞는지 확인하기 -> strike 갯수 확인
+5. 반복하며 게임 진행 -> 'till the end;
